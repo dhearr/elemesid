@@ -1,5 +1,6 @@
 import { links } from "../data";
 import { style } from "../style";
+import { logo } from "../assets";
 
 export default function Navbar() {
   return (
@@ -7,7 +8,7 @@ export default function Navbar() {
       <div className="h-[96px] flex items-center justify-between mx-5 lg:mx-24 p-4">
         <a className="flex items-center space-x-3">
           <img
-            src="/src/assets/logo.png"
+            src={logo}
             className="w-[150px] h-[36px] md:w-[207px] md:h-[50px] "
             alt="Logo"
           />
