@@ -1,4 +1,5 @@
 import { products } from "../data";
+import { greenSaladTomato } from "../assets";
 
 export default function CardHero() {
   const data = products;
@@ -9,7 +10,7 @@ export default function CardHero() {
   return (
     <>
       <img
-        src="/src/assets/greenSaladTomato.png"
+        src={greenSaladTomato}
         alt="mockup"
         className="w-[220px] h-[225px] lg:w-[413px] lg:h-[415px]"
       />

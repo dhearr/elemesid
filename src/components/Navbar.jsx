@@ -34,7 +34,7 @@ export default function Navbar() {
                 key={index}
                 className="relative font-medium leading-[22px] text-[14px] gap-8 cursor-default text-[#757575] "
               >
-                {link.title}
+                <a href={`#${link.id}`}>{link.title}</a>
                 {link.notify ? (
                   <span className={style.notify}>{link.notify}</span>
                 ) : null}

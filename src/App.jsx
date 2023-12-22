@@ -10,7 +10,7 @@ function App() {
       <nav className="bg-white overflow-hidden fixed w-full z-20 top-0 start-0">
         <Navbar />
       </nav>
-      <section className="bg-white">
+      <section className="bg-white" id="home">
         <div className="bg-hero-pattern mix-blend-multiply bg-cover overflow-hidden">
           <Hero />
         </div>
