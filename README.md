@@ -12,8 +12,8 @@ Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) dan [npm](https://
 
 ### Langkah 1: Clone Repositori
 
-```bash
+```
 git clone https://github.com/username/nama-proyek.git
 cd nama-proyek
-
-### Langkah 1: Clone Repositori
+```
+### Langkah 2: Clone Repositori
