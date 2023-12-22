@@ -16,4 +16,14 @@ Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) dan [npm](https://
 git clone https://github.com/username/nama-proyek.git
 cd nama-proyek
 ```
-### Langkah 2: Clone Repositori
+### Langkah 2: Instal Dependensi
+
+```
+npm install
+```
+### Langkah 3: Jalankan Aplikasi
+
+```
+npm run dev
+```
+Aplikasi akan berjalan di http://localhost:5173. Buka URL tersebut di browser untuk melihat aplikasi Anda.
