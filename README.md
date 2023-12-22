@@ -28,5 +28,5 @@ npm run dev
 ```
 Aplikasi akan berjalan di http://localhost:5173. Buka URL tersebut di browser untuk melihat aplikasi Anda.
 
-hasil dari project ini bisa [disini](https://elemesid.vercel.app/) 
+hasil dari project ini bisa dilihat [disini](https://elemesid.vercel.app/) 
 
