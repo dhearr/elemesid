@@ -30,6 +30,7 @@ export default function Navbar() {
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
           <ul className="flex p-4 mt-4 font-medium rounded-lg space-x-8 flex-row ">
             {links.map((link, index) => (
+              //! Start Link Navbar
               <li
                 key={index}
                 className="relative font-medium leading-[22px] text-[14px] gap-8 cursor-default text-[#757575] "
@@ -39,6 +40,7 @@ export default function Navbar() {
                   <span className={style.notify}>{link.notify}</span>
                 ) : null}
               </li>
+              //! End Link Navbar
             ))}
           </ul>
         </div>

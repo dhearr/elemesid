@@ -2,10 +2,10 @@ import { products } from "../data";
 import { greenSaladTomato } from "../assets";
 
 export default function CardHero() {
-  const data = products;
+  const data = products; //! Kumpulan Data Yang Sudah Dibuat
 
-  const dataIdFind = 1;
-  const myData = data.find((obj) => obj.id === dataIdFind);
+  const dataIdFind = 1; //! Target Object Yang Id nya 1
+  const myData = data.find((obj) => obj.id === dataIdFind); //! Mendapatkan Id Dari Variable dataIdFind
 
   return (
     <>

@@ -4,16 +4,16 @@ import { useState } from "react";
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 
 export default function Category() {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(0); //! State Untuk Button Scroll Category
 
   const handleScroll = (direction) => {
-    const container = document.getElementById("scrollContainer");
-    const scrollAmount = 200;
+    const container = document.getElementById("scrollContainer"); //! Container Card Category
+    const scrollAmount = 200; //! Angka Posisi Scroll Untuk Diisi Ke State Yang Sudah Di Buat Di Atas
 
     if (direction === "left") {
-      container.scrollLeft -= scrollAmount;
+      container.scrollLeft -= scrollAmount; //! Kondisi Mengurangi State Yang Sudah Terisi
     } else {
-      container.scrollLeft += scrollAmount;
+      container.scrollLeft += scrollAmount; //! Kondisi Menambah State Jika State Masih 0
     }
 
     setScrollPosition(container.scrollLeft);
@@ -34,6 +34,7 @@ export default function Category() {
         id="scrollContainer"
       >
         {categories.map((category, index) => (
+          //! Start Card Category
           <div
             key={index}
             className="min-w-[230px] flex justify-center items-center py-8 px-20 rounded-lg hover:translate-y-3 hover:scale-105 hover:bg-hero-pattern hover:bg-cover"
@@ -53,6 +54,7 @@ export default function Category() {
               </p>
             </div>
           </div>
+          //! End Card Category
         ))}
       </div>
       <div className="hidden sm:flex justify-end mr-24 gap-4">
